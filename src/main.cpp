@@ -46,6 +46,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 int
 main(int argc, char **argv)
 {
+    //Bol som tu ... F.D. 
+    
     // Inicialization of ROS
     ros::init(argc, argv, "image_filtering_for_aruco");
     ros::NodeHandle myRosNode;
