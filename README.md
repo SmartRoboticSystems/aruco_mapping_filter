@@ -15,7 +15,7 @@ Input Image: /camera/image_raw
 
 Output Image: /camera/image_raw_filtered
 
-## Paramters:
+## Parameters:
 
 treshold - zero means original image
 
