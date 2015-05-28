@@ -17,8 +17,6 @@ Output Image: /camera/image_raw_filtered
 
 ## Parameters:
 
-treshold - zero means original image
-
-name          | type         | value       | Comment                  |
+Name          | Type         | Value       | Comment                  |
 ------------- | -------------| ------------| -------------------------|
 treshold      | int          | 0-255       |  0 means original image  | 
