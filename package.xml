@@ -1,30 +1,26 @@
 <?xml version="1.0"?>
 <package>
   <name>image_filtering_for_aruco</name>
-  <version>0.0.0</version>
+  <version>1.0.0</version>
   <description>The image_filtering_for_aruco package</description>
 
-  <maintainer email="janbacik@gmail.com">bacik</maintainer>
-
+  <maintainer email="janbacik@smartroboticsys.eu">Jan Bacik</maintainer>
   <license>BSD</license>
-
-  <url type="website">http://www.smartroboticsys.eu/?cat=8</url>
-
-  <buildtool_depend>catkin</buildtool_depend>
+  <url type="website">http://www.smartroboticsys.eu/</url>
+  <author email="jan.bacik@smartroboticsys.eu">Jan Bacik</author>  
   
-  <!-- Dependencies needed to compile this package. -->
+  <buildtool_depend>catkin</buildtool_depend>
+    
   <build_depend>roscpp</build_depend>
   <build_depend>message_generation</build_depend>
   <build_depend>image_transport</build_depend>
   <build_depend>cv_bridge</build_depend>
   <build_depend>OpenCV</build_depend>
-
-  <!-- Dependencies needed after this package is compiled. -->
+  
   <run_depend>roscpp</run_depend>
   <run_depend>message_runtime</run_depend>
   <run_depend>image_transport</run_depend>
   <run_depend>cv_bridge</run_depend>
   <run_depend>OpenCV</run_depend>
-
 
 </package>

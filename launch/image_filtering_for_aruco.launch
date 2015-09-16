@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch> 
+ 
+  <!-- Image filtering for aruco -->
+  <node pkg="image_filtering_for_aruco" type="image_filtering_for_aruco" name="image_filtering_for_aruco" launch-prefix="xterm -e">
+    <remap from="/camera/image_raw" to="/camera/image_raw"/>
+    <param name="threshold" type="int" value="240"/>
+  </node>
+ 
+</launch>
