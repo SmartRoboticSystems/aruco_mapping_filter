@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>image_filtering_for_aruco</name>
-  <version>1.0.0</version>
+  <version>0.1.0</version>
   <description>The image_filtering_for_aruco package</description>
 
   <maintainer email="janbacik@smartroboticsys.eu">Jan Bacik</maintainer>
