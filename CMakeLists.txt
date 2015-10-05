@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(image_filtering_for_aruco)
+project(aruco_mapping_filter)
 
 find_package(catkin REQUIRED COMPONENTS 
              roscpp
