@@ -1,5 +1,7 @@
 # aruco_mapping_filter
 
+[ROS](http://ros.org) package
+
 Image filter improving performance of [aruco_mapping](http://wiki.ros.org/aruco_mapping) package
 
 * Author: [Jan Bacik] (http://www.smartroboticsys.eu/?page_id=895&lang=en), [Smart Robotic Systems] (http://www.smartroboticsys.eu)
