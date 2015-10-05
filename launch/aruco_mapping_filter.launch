@@ -2,7 +2,7 @@
 <launch> 
  
   <!-- Image filtering for aruco -->
-  <node pkg="image_filtering_for_aruco" type="image_filtering_for_aruco" name="image_filtering_for_aruco" launch-prefix="xterm -e">
+  <node pkg="aruco_mapping_filter" type="aruco_mapping_filter" name="aruco_mapping_filter" output="screen">
     <remap from="/camera/image_raw" to="/camera/image_raw"/>
     <param name="threshold" type="int" value="240"/>
   </node>
