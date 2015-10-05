@@ -12,10 +12,14 @@ alt="Aruco mapping filter" width="480" height="360" border="10" /></a>
 
 ## ROS API:
 
-Subsrcibed Topics: */camera/image_raw*
+**Subsrcibed Topics**: */camera/image_raw*
 
-Published Topics: */camera/image_raw_filtered*
+**Published Topics**: */camera/image_raw_filtered*
 
-Parameters: *treshold* <0-255>
+**Parameters**:
+
+Name          | Type         | Range       | Comment                  |
+------------- | -------------| --------------------| -------------------------|
+threshold | int | 0-255 | 0 means original image |
 
 
