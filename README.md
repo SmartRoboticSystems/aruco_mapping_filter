@@ -1,4 +1,4 @@
-# image_filtering_for_aruco
+# aruco_mapping_filter
 
 Image filter for improving performance of [aruco_mapping](http://wiki.ros.org/aruco_mapping) package
 
