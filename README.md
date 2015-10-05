@@ -2,20 +2,19 @@
 
 [ROS](http://ros.org) package
 
-Image filter for better performance of ArUco detector
+Image filter for improving performance of aruco_mapping package
 
 * Video: https://www.youtube.com/watch?v=fgW7b1jf4R8
-* ROS wiki page: 
-* Autors: [Jan Bacik] (http://www.smartroboticsys.eu/?page_id=895&lang=en), [Smart Robotic Systems] (http://www.smartroboticsys.eu)
+* Author: [Jan Bacik] (http://www.smartroboticsys.eu/?page_id=895&lang=en), [Smart Robotic Systems] (http://www.smartroboticsys.eu)
 
 
-## Topics:
+## ROS API:
 
-Input Image: /camera/image_raw
+Subsrcibed topics: /camera/image_raw
 
-Output Image: /camera/image_raw_filtered
+Published Topics: /camera/image_raw_filtered
 
-## Parameters:
+Parameters:
 
 Name          | Type         | Value       | Comment                  |
 ------------- | -------------| ------------| -------------------------|
