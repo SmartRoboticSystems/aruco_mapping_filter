@@ -19,16 +19,7 @@ SET(SOURCES ${PROJECT_SOURCE_DIR}/src/main.cpp
    
 SET(HEADERS ${PROJECT_SOURCE_DIR}/include/filter.h)
 
-catkin_package(
-  DEPENDS
-  INCLUDE_DIRS
-  CATKIN_DEPENDS roscpp message_runtime
-  LIBRARIES
-  roscpp
-  image_transport
-  cv_bridge
-  cmake_modules
-)
+catkin_package()
 
 add_executable(${PROJECT_NAME} ${SOURCES} ${HEADERS})
 add_dependencies(${PROJECT_NAME} ${catkin_EXPORTED_TARGETS})
